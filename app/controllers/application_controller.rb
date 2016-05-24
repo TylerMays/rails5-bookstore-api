@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::API
 
   def hello
-    render text: "hello world"
+    render json: {hello: "world"}
   end
 end
