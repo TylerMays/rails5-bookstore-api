@@ -20,10 +20,10 @@ gem 'puma', '~> 3.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
-require 'rbconfig'
-if RbConfig::CONFIG['target_os'] =~ /darwin(1[0-3])/i
-  gem 'rb-fsevent', '<= 0.9.4'
-end
+# require 'rbconfig'
+# if RbConfig::CONFIG['target_os'] =~ /darwin(1[0-3])/i
+#   gem 'rb-fsevent', '<= 0.9.4'
+# end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
